@@ -1,0 +1,38 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #64CCC5;
+}
+.bar-text{
+    margin-bottom: 5%;
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.parent-prog-bar{
+    width: 50vw;
+    height: 3em;
+    background-color: #001C30;
+    border-radius: 25px;
+    padding: 0 10px;
+    position: relative;
+}
+.child-prog-bar{
+    height: 70%;
+    /* width: 50%; */
+    position: relative;
+    top: 7px;
+    border-radius: 20px;
+    background-color: #176B87;
+}
+input{
+    margin: 20px 0;
+    text-align: center;
+    border-radius: 20px;
+    height: 2rem;
+    border: none;
+    background-color: #DAFFFB;
+}
